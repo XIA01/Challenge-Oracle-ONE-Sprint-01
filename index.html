@@ -1,0 +1,43 @@
+<!Doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Desafío 1- Aplicación que encripta textos</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+</head>
+<body>
+    <div class="Principal">
+        <div class="insercion">
+            <div class="logo"><img src="img/Vector.png" class="vector" name="imagenVector"></div>
+            
+            <div><textarea type="text" name="texto" class="campoTexto" placeholder="Ingrese el texto aqui" autofocus="true"></textarea></div>
+            <span  class="textito"><img src="img/logui.png" class="logui">Solo letras minúsculas</span>
+            <div>
+                <button type="button" class="boton" id="encriptar" name="encriptar">Encriptar</button><button type="button" class="boton2" id="desencriptar" name="desencriptar">Desencriptar</button>
+            </div>
+        </div><div class="resultado">
+            <div><textarea class="textoResultado" name="resultado" id="resultado" cols="30" rows="10" ></textarea></div>
+            <div id="imagenMuñeco"><img  class="imagenMuñeco" src="img/Muñeco.png"></div>
+            <div class="comentario"><p class="msg1">Ningún mensaje fue encontrado</p><p class="msg2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+                <div>
+                    <span class="textito2"><img src="img/logui.png" class="logui">Mensaje copiado con exito!</span>
+                    <button type="button" class="copiar" name="copiar">Copiar</button>
+                </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+<footer>
+        <div>
+        <div class="logo"><img src="img/Vector.png" id="vector" name="imagenVector"></div>
+        <div class="textoFooter">
+            <p>Desarrollado por:</p>
+            <p>Soria Pedro Matias - M0111</p>
+        </div>
+        </div>
+</footer>
+</html>
