@@ -1,4 +1,5 @@
- function encriptar(){
+document.querySelector(".textito2").style.display = "none"; 
+function encriptar(){
             
             var texto = document.querySelector("textarea[name=texto]").value;
             //convertir texto a minúsculas
